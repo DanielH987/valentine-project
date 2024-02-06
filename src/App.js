@@ -2,6 +2,12 @@ import React, { useState } from 'react';
 import './App.css';
 
 function App() {
+  React.useEffect(
+    function () {
+      document.title = `Happy Valentine`;
+    }, []
+  );
+
   const [yesButtonSize, setYesButtonSize] = useState(13);
   const [noButtonMessageIndex, setNoButtonMessageIndex] = useState(0);
   const [yesClicked, setYesClicked] = useState(false);
