@@ -47,7 +47,7 @@ function App() {
       position: 'absolute'
     });
     // The rest of your existing logic to change the button size and message index
-    setYesButtonSize(currentSize => currentSize + 10);
+    setYesButtonSize(currentSize => currentSize + 50);
     setNoButtonMessageIndex(currentIndex => (currentIndex + 1) % noButtonMessages.length);
   };
 
