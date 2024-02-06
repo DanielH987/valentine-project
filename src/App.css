@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #fcfefc;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #282c34;
 }
 
 .App-link {
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Add styles for the buttons */
+.button-yes {
+  background-color: green; /* Green background for 'Yes' button */
+  color: white; /* White text color for better readability */
+  border: none; /* Remove default border */
+  padding: 10px; /* Add some padding around the text */
+  margin-right: 10px; /* Add margin to the right of the 'Yes' button */
+  margin-bottom: 10px; /* Add margin to the bottom of the 'Yes' button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: font-size 0.3s ease-in-out;
+}
+
+.button-no {
+  background-color: red; /* Red background for 'No' button */
+  color: white; /* White text color for better readability */
+  border: none; /* Remove default border */
+  padding: 10px; /* Add some padding around the text */
+  cursor: pointer; /* Change cursor to pointer on hover */
 }
