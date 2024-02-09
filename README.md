@@ -1,5 +1,5 @@
 # Valentine's Day React Project
-## [Live Demo](https://danielh987.github.io/portfolio/](https://danielh987.github.io/valentine-project/)
+## [Live Demo](https://danielh987.github.io/valentine-project/)
 
 ## About
 
